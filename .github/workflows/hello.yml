@@ -1,4 +1,4 @@
-Name: My first workflo
+name: My first workflo
 on: push
 
 jobs: 
