@@ -1,7 +1,8 @@
-name: My first workflo
+name: My first workflow
 on: push
 
 jobs: 
+  
   say-hello:
    runs-on: ubuntu-latest
    
@@ -9,3 +10,6 @@ jobs:
    steps:
      - name: Print message
        run: echo "Hello, Github Actions!"
+     - name: Print author message
+       run: echo "Rupesh JI"
+ 
